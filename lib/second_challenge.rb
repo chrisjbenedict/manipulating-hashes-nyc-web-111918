@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-  groceries.values.flat_map
+  groceries.values.collect_concat
 
 
 end
